@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  PresetsView.swift
 //  jiuJitsuRoundTimer
 //
 //  Created by andrew austin on 8/25/23.
@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct PresetsView: View {
     var body: some View {
-        MainTabView()
+        Text("Presets")
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct PresetsView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        PresetsView()
     }
 }
